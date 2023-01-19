@@ -1,0 +1,55 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-family: var(--font-montserrat);
+    color: var(--color-gray-black);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 161.1%;
+    margin-bottom: 20px;
+}
+
+.field {
+    width: 500px;
+    height: 103px;
+    border: none;
+    border-radius: 6px;
+    margin-bottom: 12px;
+    font-family: var(--font-montserrat);
+    padding: 8px;
+    color: var(--color-gray-blue);
+    font-size: 14px;
+}
+
+.field::placeholder {
+    color: var(--color-gray);
+    font-size: 14px;
+}
+
+.button {
+    width: 100px;
+    height: 42px;
+    color: var(--color-white);
+    border: none;
+    border-radius: 6px;
+    background: var(--color-purple);
+    opacity: 1;
+    transition: opacity .3s;
+    font-family: var(--font-montserrat);
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.button:hover {
+    cursor: pointer;
+    opacity: .9;
+    transition: opacity .3s;
+}
+.field:focus,
+.button:active {
+    outline: none;
+}

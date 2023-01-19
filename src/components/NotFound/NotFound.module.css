@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 250px;
+    height: 60px;
+    margin: 150px auto;
+    background: var(--color-white);
+    border-radius: 8px;
+}
+
+.title {
+    font-family: var(--font-montserrat);
+    color: var(--color-gray-blue);
+}
